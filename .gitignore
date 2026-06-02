@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+.venv/
+venv/
+env/
+*_env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# Distribution
+build/
+dist/
+*.egg-info/
+
+# Models
+models/checkpoints/
+*.pkl
+*.joblib
+
+# Data
+data/raw/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+
+# Coverage
+.coverage
+htmlcov/
+
+# Experiment outputs
+reports/*.tmp
+
+# Temporary files
+*.tmp
+*.swp
